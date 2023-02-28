@@ -55,6 +55,8 @@ const filter_reducer = (state, action) => {
             return b.name.localeCompare(a.name);
           });
           break;
+        default:
+          throw new Error("Unsupported sorting");
       }
       return { ...state, filtered_products: tempProducts };
     }

@@ -14,7 +14,7 @@ import {
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-const SingleProductPage = ({}) => {
+const SingleProductPage = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const {
