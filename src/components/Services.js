@@ -8,12 +8,13 @@ const Services = () => {
       <div className="section-center">
         <article className="header">
           <h3>
-            custom furniture <br /> only for you
+            The Perfect clothes <br /> for the Perfect you
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
-            possimus commodi voluptas ipsa sed eveniet! Cupiditate, aperiam.
-            Tenetur, voluptatem officiis!
+            Looking for the perfect outfit can be a hassle, but with our online
+            store, you can say goodbye to that frustration! Our advanced
+            filtering system and detailed product information make it easy for
+            you to find exactly what you're looking for.
           </p>
         </article>
         <div className="services-center">
