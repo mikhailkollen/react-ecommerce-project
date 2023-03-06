@@ -4,27 +4,32 @@ import { Link } from "react-router-dom";
 import heroBcg from "../assets/hero-bcg.jpeg";
 import heroBcg2 from "../assets/hero-bcg-2.jpeg";
 
+import Spline from "@splinetool/react-spline";
+
 const Hero = () => {
   return (
     <Wrapper className="section-center">
       <article className="content">
         <h1>
-          Design your <br /> Comfort Zone
+          Embrace Vintage. <br /> Stand Out.
         </h1>
         <p>
-          Transform your living space into a cozy and stylish oasis with our
-          high-quality furniture and decor products. Find everything you need to
-          design your perfect comfort zone and create a warm and inviting
-          atmosphere that reflects your personal style and preferences.
+          From classic to bold pieces, we've got something for every
+          personality. The timeless quality and confidence-boosting style.
         </p>
         <Link to="/products" className="btn hero-btn">
           Shop Now
         </Link>
       </article>
-      <article className="img-container">
-        <img src={heroBcg} alt="nice table" className="main-img" />
-        <img src={heroBcg2} alt="person working" className="accent-img" />
-      </article>
+      {/* <article className="img-container"> */}
+      <Spline
+        className="img-container"
+        scene="https://prod.spline.design/6AMgy9HK7JtHr1h3/scene.splinecode"
+      />
+
+      {/* <img src={heroBcg} alt="nice table" className="main-img" />
+        <img src={heroBcg2} alt="person working" className="accent-img" /> */}
+      {/* </article> */}
     </Wrapper>
   );
 };
@@ -61,6 +66,7 @@ const Wrapper = styled.section`
     .img-container {
       display: block;
       position: relative;
+      overflow: hidden;
     }
     .main-img {
       width: 100%;
@@ -79,14 +85,8 @@ const Wrapper = styled.section`
       border-radius: var(--radius);
     }
     .img-container::before {
-      content: "";
-      position: absolute;
-      width: 10%;
-      height: 80%;
-      background: var(--clr-primary-9);
-      bottom: 0%;
-      left: -8%;
-      border-radius: var(--radius);
+      display: none;
+      overflow: hidden;
     }
   }
 `;

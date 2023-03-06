@@ -14,15 +14,17 @@ const AboutPage = () => {
             <h2>our story</h2>
             <div className="underline"></div>
             <p>
-              Our online furniture store offers a wide range of high-quality
-              furniture from trusted brands in the industry, with styles ranging
-              from classic to modern. Our goal is to make the process of buying
-              furniture online as easy and seamless as possible, and our
-              user-friendly website and customer support team are here to assist
-              you every step of the way. Whether you are looking for a new sofa,
-              dining table, or bed, we are dedicated to helping you find the
-              perfect pieces that fit your style, budget, and needs, and
-              transform your home into a comfortable and stylish oasis.
+              TwoDoors is the online store where vintage fashion meets personal
+              growth. Our name comes from our belief that finding the perfect
+              piece of clothing can be a transformative experience, opening
+              doors to your inner self and a new way of communicating with the
+              world. Our mission is to provide a curated collection of vintage
+              clothing that not only looks great but also empowers you to
+              express yourself and connect with others. Each item in our
+              collection is hand-selected for its quality, style, and unique
+              character, ensuring that you can find the perfect piece to unlock
+              your personal style and confidence. We invite you to browse our
+              collection and discover the magic of vintage fashion for yourself.
             </p>
           </div>
         </article>

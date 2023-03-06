@@ -63,7 +63,7 @@ const Filters = () => {
           {/* end of categories */}
           {/* companies */}
           <div className="form-control">
-            <h5>company</h5>
+            <h5>Brand</h5>
             <select
               name="company"
               value={company}

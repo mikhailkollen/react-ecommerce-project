@@ -8,9 +8,9 @@ const Contact = () => {
         <h3>Join our newsletter and get 10% off</h3>
         <div className="content">
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
-            saepe, enim omnis quisquam sapiente quibusdam nobis ipsa nulla
-            commodi fugit.
+            Join our newsletter for exclusive offers, personalized styling tips,
+            and early access to new arrivals. Don't miss out on the benefits of
+            being part of our community of vintage enthusiasts, sign up now.
           </p>
           <form
             className="contact-form"
