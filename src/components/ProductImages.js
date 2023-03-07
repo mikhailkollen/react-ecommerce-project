@@ -25,7 +25,7 @@ const ProductImages = ({ images = [{ url: "" }] }) => {
 
 const Wrapper = styled.section`
   .main {
-    height: 600px;
+    height: 655px;
   }
   img {
     width: 100%;
@@ -58,7 +58,7 @@ const Wrapper = styled.section`
   }
   @media (min-width: 992px) {
     .main {
-      height: 500px;
+      height: 655px;
     }
     .gallery {
       img {

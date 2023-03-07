@@ -71,7 +71,7 @@ const Filters = () => {
               className="company"
               id=""
             >
-              {companies.map((c, index) => {
+              {companies.sort().map((c, index) => {
                 return (
                   <option key={index} value={c}>
                     {c}

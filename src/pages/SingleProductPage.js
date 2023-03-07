@@ -110,6 +110,11 @@ const Wrapper = styled.main`
     }
   }
 
+  img {
+    object-fit: cover;
+    object-position: top;
+  }
+
   @media (min-width: 992px) {
     .product-center {
       grid-template-columns: 1fr 1fr;

@@ -31,6 +31,7 @@ const Wrapper = styled.article`
     width: 100%;
     display: block;
     object-fit: cover;
+    object-position: 50% 25%;
     border-radius: var(--radius);
     transition: var(--transition);
   }
