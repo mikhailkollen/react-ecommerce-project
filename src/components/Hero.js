@@ -21,7 +21,10 @@ const Hero = () => {
         </Link>
       </article>
       {/* <article className="img-container"> */}
-      <Spline scene="https://prod.spline.design/A9oCMDG3eIUE3POw/scene.splinecode" />
+      <Spline
+        className="hero-scene"
+        scene="https://prod.spline.design/A9oCMDG3eIUE3POw/scene.splinecode"
+      />
       {/* <img src={heroBcg} alt="nice table" className="main-img" />
         <img src={heroBcg2} alt="person working" className="accent-img" /> */}
       {/* </article> */}
@@ -44,6 +47,10 @@ const Wrapper = styled.section`
     color: var(--clr-grey-5);
     font-size: 1rem;
   }
+  .hero-scene {
+    display: none;
+  }
+
   @media (min-width: 992px) {
     height: calc(100vh - 5rem);
     grid-template-columns: 1fr 1fr;
@@ -58,6 +65,12 @@ const Wrapper = styled.section`
       padding: 0.75rem 1.5rem;
       font-size: 1rem;
     }
+
+    .hero-scene {
+      display: block;
+      overflow: hidden;
+    }
+
     .img-container {
       display: block;
       position: relative;
